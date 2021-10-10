@@ -39,7 +39,6 @@ body {
 
 .myself-name {
     color: cornsilk;
-    /* background-color: rgb(42, 59, 70); */
     margin-left: 30px;
     padding: 10px;
     border: 1px solid rgb(71, 128, 162);
@@ -56,7 +55,6 @@ body {
 
 .sub-description {
     color: rgb(237, 240, 226);
-    /* background-color: rgb(73, 97, 109); */
     width: 150px;
     font-size: 33px;
     padding: 10px;
@@ -114,8 +112,6 @@ body {
     flex-grow: 5;
     line-height: 30px;
     font-size: 20px;
-    /* display: flex;
-    justify-content: space-around; */
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
@@ -155,6 +151,16 @@ body {
     position: relative;
     border: 2px solid rgb(71, 128, 162);
     margin: 5px;
+}
+
+.project-title {
+    color: cornsilk;
+    padding: 10px;
+    border: 1px solid rgb(71, 128, 162);
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(147, 205, 207);
+    cursor: pointer;
 }
 
 .fa {
@@ -207,8 +213,8 @@ align-items: center;
     color: cornsilk;
 }
 
-/* @media screen and (max-width: 1850px) {
+@media screen and (max-width: 1850px) {
     html {
         height: auto;
     }
-} */
+}
