@@ -34,7 +34,7 @@ html, body {
 
 .myself-name {
     color: cornsilk;
-    background-color: rgb(42, 59, 70);
+    /* background-color: rgb(42, 59, 70); */
     margin-left: 30px;
     padding: 10px;
     border: 1px solid rgb(71, 128, 162);
@@ -51,7 +51,7 @@ html, body {
 
 .sub-description {
     color: rgb(237, 240, 226);
-    background-color: rgb(73, 97, 109);
+    /* background-color: rgb(73, 97, 109); */
     width: 150px;
     font-size: 33px;
     padding: 10px;
@@ -59,7 +59,8 @@ html, body {
     position: absolute;
     right: 50px;
     bottom: 15px;
-    border: 2px solid rgb(71, 128, 162);
+    border: 2px solid rgb(245, 247, 248);
+    font-size: 40px;
 }
 
 .content {
@@ -79,7 +80,7 @@ html, body {
 
 .section-name {
     color: rgb(34, 49, 58);
-    border-right: 3px solid rgb(71, 128, 162);
+    border-right: 3px solid rgb(34, 49, 58);
     height: 100%;
     margin-right: 15px;
     padding-right: 20px;
@@ -102,6 +103,85 @@ html, body {
     justify-content: space-around;
 }
 
+.projects {
+    width: 70%;
+    color: rgb(34, 49, 58);
+    flex-grow: 5;
+    line-height: 30px;
+    font-size: 20px;
+    /* display: flex;
+    justify-content: space-around; */
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-one {
+    background-image: url(../css/images/IMG_4207.jpg);
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 2px solid rgb(71, 128, 162);
+    margin: 5px;
+}
+
+.project-two {
+    background-image: url(../css/images/IMG_4204.jpg);
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 2px solid rgb(71, 128, 162);
+    margin: 5px;
+}
+
+.project-three {
+    background-image: url(../css/images/IMG_7416.JPG);
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 2px solid rgb(71, 128, 162);
+    margin: 5px;
+}
+
+.project-four {
+    background-image: url(../css/images/IMG_4209.jpg);
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 2px solid rgb(71, 128, 162);
+    margin: 5px;
+}
+
+.project-five {
+    background-image: url(../css/images/IMG_7767.JPG);
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 2px solid rgb(71, 128, 162);
+    margin: 5px;
+}
+
+.project-six {
+    background-image: url(../css/images/IMG_8739.JPG);
+    height: 400px;
+    width: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border: 2px solid rgb(71, 128, 162);
+    margin: 5px;
+}
+
 .fa {
 padding: 20px;
 font-size: 30px;
@@ -114,6 +194,16 @@ border-radius: 50%;
   
 .fa:hover {
 opacity: 0.7;
+}
+
+.fa-whatsapp {
+    background: #3d8028;
+    color: white;
+    }
+
+.fa-github {
+background: #000000;
+color: white;
 }
 
 .fa-google {
